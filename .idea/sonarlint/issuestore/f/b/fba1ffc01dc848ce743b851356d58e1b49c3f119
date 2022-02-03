@@ -1,0 +1,8 @@
+
+_
+java:S1444"=Make this "public static productoAsignadoEdicion" field final(©òÆšýÿÿÿÿ8ÂÊ•–¦/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(þÖ¨Öÿÿÿÿÿ
+…
+java:S1104"cMake productoAsignadoEdicion a static final constant or non-public and provide accessors if needed.(©òÆšýÿÿÿÿ8ÂÊ•–¦/
+X
+java:S2696"6Make the enclosing method "static" or remove this set.(¨‰Àœÿÿÿÿÿ8ÂÊ•–¦/

@@ -1,0 +1,11 @@
+
+]
+java:S1854b"BRemove this useless assignment to local variable "testCaseNumber".(Ñé»şÿÿÿÿ
+t
+java:S2293h"YReplace the type specification in this constructor call with the diamond operator ("<>").(¿•öªùÿÿÿÿ
+n
+java:S2293p"YReplace the type specification in this constructor call with the diamond operator ("<>").(ƒB
+n
+java:S3776°"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(Ø£Úóûÿÿÿÿ
+N
+java:S1481b"3Remove this unused "testCaseNumber" local variable.(Ñé»şÿÿÿÿ

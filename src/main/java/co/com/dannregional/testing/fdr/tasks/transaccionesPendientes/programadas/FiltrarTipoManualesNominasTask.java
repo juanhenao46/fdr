@@ -1,0 +1,34 @@
+package co.com.dannregional.testing.fdr.tasks.transaccionesPendientes.programadas;
+
+import net.serenitybdd.screenplay.Actor;
+import net.serenitybdd.screenplay.Task;
+import net.serenitybdd.screenplay.actions.Click;
+import net.serenitybdd.screenplay.actions.Scroll;
+
+import static co.com.dannregional.testing.fdr.interactions.comunes.Esperar.esperarEnSegundos;
+import static co.com.dannregional.testing.fdr.userinterfaces.historicoTransacciones.transacciones.HistoricoTransacciones.BTN_OPCION_90_DIAS;
+import static co.com.dannregional.testing.fdr.userinterfaces.historicoTransacciones.transacciones.HistoricoTransacciones.DRP_RANGO_FECHA;
+import static co.com.dannregional.testing.fdr.userinterfaces.transaccionesPendientes.programadas.pagos.PagosProgramados.BTN_OPCION_MANUALES_NOMINAS;
+import static co.com.dannregional.testing.fdr.userinterfaces.transaccionesPendientes.programadas.pagos.PagosProgramados.DRP_TIPO;
+import static net.serenitybdd.screenplay.Tasks.instrumented;
+
+
+public class FiltrarTipoManualesNominasTask implements Task {
+
+    @Override
+    public <T extends Actor> void performAs(T actor) {
+        actor.attemptsTo(
+                esperarEnSegundos(2000),
+                Scroll.to(DRP_RANGO_FECHA),
+                Click.on(DRP_RANGO_FECHA),
+                Click.on(BTN_OPCION_90_DIAS),
+                esperarEnSegundos(1000),
+                Click.on(DRP_TIPO),
+                Click.on(BTN_OPCION_MANUALES_NOMINAS),
+                esperarEnSegundos(2000)
+        );
+    }
+    public static FiltrarTipoManualesNominasTask filtrarTipoManualesNominas() {
+        return instrumented(FiltrarTipoManualesNominasTask.class);
+    }
+}

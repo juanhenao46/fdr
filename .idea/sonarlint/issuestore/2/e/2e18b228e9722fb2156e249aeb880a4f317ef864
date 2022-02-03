@@ -1,0 +1,12 @@
+
+Q
+java:S1444"6Make this "public static productoAsignado" field final(ïÓõÊúÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(şÖ¨Öÿÿÿÿÿ
+w
+java:S1104"\Make productoAsignado a static final constant or non-public and provide accessors if needed.(ïÓõÊúÿÿÿÿ
+c
+java:S1128"HRemove this unused import 'net.serenitybdd.screenplay.conditions.Check'.(§ÄÕŒøÿÿÿÿ
+[
+java:S1128"ERemove this unused import 'net.serenitybdd.screenplay.actions.Enter'.(—×—ë
+X
+java:S2696"6Make the enclosing method "static" or remove this set.(™İ£Óúÿÿÿÿ8ş¯ıí¥/

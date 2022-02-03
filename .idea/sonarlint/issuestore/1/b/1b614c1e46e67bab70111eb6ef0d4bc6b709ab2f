@@ -1,0 +1,10 @@
+
+L
+java:S1444"6Make this "public static nuevaContrase√±a" field final(¢ﬁù∞
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.( ’Ñò
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(É»ìÎ
+r
+java:S1104"\Make nuevaContrase√±a a static final constant or non-public and provide accessors if needed.(¢ﬁù∞
+q
+java:S3008"[Rename this field "nuevaContrase√±a" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ﬁù∞
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·∂à†¸ˇˇˇˇ

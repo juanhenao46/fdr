@@ -1,0 +1,118 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 40042900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AutentificacionStepDefinitions.initialConfiguration()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Autentificacion exitosa Banca Digital",
+        "description": "",
+        "id": "aplicativo-banco-iris-logueo-de-usuario;autentificacion-exitosa-banca-digital;;2",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 296970600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que el usuario tiene toda la informacion que necesita",
+            "match": {
+              "location": "AutentificacionStepDefinitions.queElUsuarioTieneTodaLaInformacionQueNecesita(String,Object\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "nit",
+                  "usuario",
+                  "clave",
+                  "nombre usuario"
+                ]
+              },
+              {
+                "cells": [
+                  "111111103",
+                  "admin2automation3",
+                  "juanfelipehenaolopez",
+                  "Admin Dos Automatizacion"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 12529091800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "que el usuario se encuentra en el aplicativo Banca Digital",
+            "match": {
+              "location": "AutentificacionStepDefinitions.queElUsuarioSeEncuentraEnElAplicativoBancaDigital()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 18415729300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "el usuario se autentifica con sus credenciales",
+            "match": {
+              "location": "AutentificacionStepDefinitions.elUsuarioSeAutentificaConSusCredenciales()"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: Expected net.serenitybdd.screenplay.QuestionSubject@1510b9a2\nExpected: is \u003ctrue\u003e\n     but: was \u003cfalse\u003e\r\nExpected net.serenitybdd.screenplay.QuestionSubject@77663cd7\nExpected: is \u003ctrue\u003e\n     but: was \u003cfalse\u003e\r\n\tat net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)\r\n\tat net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)\r\n\tat net.serenitybdd.screenplay.Actor.should(Actor.java:187)\r\n\tat co.com.dannregional.testing.fdr.stepdefinitions.autentificacion.logueo.AutentificacionStepDefinitions.el_usuario_deberia_poder_ver_su_nombre_en_el_header_y_la_informacion_del_dashboard(AutentificacionStepDefinitions.java:59)\r\n\tat ✽.el usuario deberia poder ver su nombre en el header y la informacion del dashboard(src/test/resources/co.com.dannregional.testing.fdr/features/autentificacion/logueo/logueo_exitoso.feature:12)\r\n",
+              "duration": 7152692100,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "el usuario deberia poder ver su nombre en el header y la informacion del dashboard",
+            "match": {
+              "location": "AutentificacionStepDefinitions.el_usuario_deberia_poder_ver_su_nombre_en_el_header_y_la_informacion_del_dashboard()"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2E_iris"
+          },
+          {
+            "name": "@TestCase1"
+          }
+        ]
+      }
+    ],
+    "name": "Aplicativo Banco IRIS Logueo de usuario",
+    "description": "  El usuario debe tener la habilidad para loguearse en el portal Banca Digital",
+    "id": "aplicativo-banco-iris-logueo-de-usuario",
+    "keyword": "Característica",
+    "uri": "src/test/resources/co.com.dannregional.testing.fdr/features/autentificacion/logueo/logueo_exitoso.feature",
+    "tags": [
+      {
+        "name": "@E2E_iris",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

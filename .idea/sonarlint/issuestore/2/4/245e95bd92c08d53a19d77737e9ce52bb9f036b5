@@ -1,0 +1,7 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ήπ
+­
+java:S1128
+"Remove this unused import 'co.com.dannregional.testing.fdr.userinterfaces.resumen.pantallaResumen.BarraNavegacion.BTN_HISTORICO_TRANSACCIONES'.(τ“²8ΣυΎ”/
+d
+java:S1128"GRemove this unused import 'net.serenitybdd.screenplay.waits.WaitUntil'.(• ά8ΣυΎ”/

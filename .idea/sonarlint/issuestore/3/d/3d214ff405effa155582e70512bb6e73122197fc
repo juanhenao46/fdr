@@ -1,0 +1,9 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»‚‰÷ûÿÿÿÿ
+¸
+java:S1128	"šRemove this unused import 'co.com.dannregional.testing.fdr.userinterfaces.historicoTransacciones.transacciones.HistoricoTransacciones.BTN_OPCION_90_DIAS'.(ı¡¢8µæ¨•/
+º
+java:S1128
+"—Remove this unused import 'co.com.dannregional.testing.fdr.userinterfaces.historicoTransacciones.transacciones.HistoricoTransacciones.DRP_RANGO_FECHA'.(ªù¾½ÿÿÿÿÿ8ºæ¨•/
+h
+java:S1128"FRemove this unused import 'net.serenitybdd.screenplay.actions.Scroll'.(ÆğŒÄşÿÿÿÿ8Çì¨•/
